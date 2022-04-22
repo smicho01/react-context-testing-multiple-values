@@ -1,3 +1,12 @@
+# Tiny React app to test Context Provier functionality
+
+This app shows simply how to pass data between components without using `props`.
+Data can be added between ancestor and descendants. The cool thing about is that the data can be passed not only to the direct children, but many levels deeper than that, so other componnets does not receive redundadnt data.
+
+Example : ComponentA have direct chilc ComponentB and ComponentB have child ComponentC.
+ComponentA can pass data directly to ComponentC without harnasing ComponentB to pass data from ComponentA to ComponentC as this would be the only wat to do it when using `props`.
+Cool, no ?
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
